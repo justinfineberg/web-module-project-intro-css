@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{
+    font-size: 10px;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto Mono', monospace;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+header nav{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a{
+    height: 4x;
+    width: 89px;
+    padding: 9px 15px 2px 15px;
+    /* margin: 5%; */
+    border-radius: 10px;
+    color: white;
+    /* border: 6px black solid; */
+    text-decoration: none;
+    /* margin: 0 auto; */
+    font-size: 1.3rem;
+    text-align: center;
+    margin: -20px;
+
+}
+
+header img{
+    border-radius: 999px;
+    display: inline;
+    width: 200px;
+    margin-left: 60px;
+}
+
+#headerSection{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 50px;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+#firstBox{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.boxSection{
+    width: 90%;
+    margin: 10px auto;
+    background-color:#DDB9A3;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-spacing: 2;
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding; 5px;
+    font-size: 1.5rem;
+}
+
+.middleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.middleContainer p{
+    width: 25%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-size: 1.3rem;
+}
+
+.icon1{
+    margin-bottom: 40px;
+}
+footer{
+    background-color: #f9e7dc;
+    padding-bottom: 100px;
+}
+
+footer img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    object-position:center;
+    margin-bottom: 20px;
+    background-position: center;
+}
+
+.link1{
+    background-color: #ff764e;
+}
+.link2{
+    background-color: #5ed3eb;
+}
+.link3{
+    background-color: #ffcd69;
+}
+
+.link1:hover{
+background-color: white;
+color: #ff764e;
+border: solid 1px #ff764e;
+}
+
+.link2:hover{
+background-color: white;
+color:#5ed3eb;
+border: solid 1px #5ed3eb;
+}
+
+.link3:hover{
+background-color: white;
+color:  #ffcd69;
+border: solid 1px  #ffcd69;
+}
+
+#headerSection h3:last-child{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+footer nav a{
+    height: 4x;
+    width: 89px;
+    padding: 9px 15px 2px 15px;
+    margin: 5%;
+    border-radius: 10px;
+    color: white;
+
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: -20px; 
+
+}
+
+footer nav{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
